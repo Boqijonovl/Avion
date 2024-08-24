@@ -1,0 +1,134 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+
+    &_bg {
+        background-color: $dark_primary;
+    }
+
+    &_left {
+        margin-top: 60px;
+        margin-left: 60px;
+
+        h1 {
+            max-width: 513px;
+            font-family: "Raleway";
+            font-size: 35px;
+            font-weight: 400;
+            line-height: 44.8px;
+            color: white;
+        }
+
+        p {
+            max-width: 602px;
+            margin-top: 196px;
+            font-family: "Raleway";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            color: white;
+        }
+
+        &-btn {
+            padding: 16px 32px;
+            gap: 10px;
+            margin-top: 41px;
+            background: #F9F9F926;
+            font-family: "Raleway";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: white;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.5;
+            }
+        }
+
+        .h_btn {
+            display: none;
+        }
+    }
+
+    &_right {
+        &-img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .hero {
+        margin-top: 30px;
+
+        &_left {
+            h1 {
+                font-size: 25px;
+            }
+
+            p {
+                margin-top: 50px;
+                margin-bottom: 40px;
+                font-size: 14px;
+            }
+
+            &-btn {
+                font-size: 10px;
+                padding: 12px 24px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .hero {
+        margin-top: 20px;
+
+        &_left {
+            h1 {
+                font-size: 15px;
+            }
+
+            p {
+                margin-top: 20px;
+                margin-bottom: 40px;
+                font-size: 8px;
+                margin-bottom: 30px;
+            }
+
+            &-btn {
+                font-size: 5px;
+                padding: 6px 12px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .hero {
+        display: inline;
+
+        &_left {
+            margin: 20px 30px;
+            padding: 0 10px;
+            background-color: $dark_primary ;
+
+            &-btn{
+                margin-top: 20px;
+            }
+        }
+
+        &_right{
+            &-img{
+                padding: 10px 30px;
+            }
+        }
+
+    }
+
+}

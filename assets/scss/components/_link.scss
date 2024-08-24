@@ -1,0 +1,251 @@
+.nav {
+    padding: 0 28px;
+
+    &_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        max-height: 70px;
+        border-bottom: 1px solid #0000001A;
+
+        h1 {
+            font-family: "Raleway";
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 29.52px;
+            color: #22202E;
+        }
+
+        .nav_wop-use {
+            a:nth-child(1) {
+                margin-right: 16px;
+            }
+        }
+    }
+}
+
+.navbar {
+    .nav_links {
+        display: flex;
+        max-width: 675px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        a {
+            font-family: "Raleway";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.6px;
+            color: $decs_color;
+            transition: all 0.3;
+
+            &:hover {
+                color: $dark_primary;
+
+            }
+        }
+
+    }
+}
+
+.navbar_content {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    border-bottom: 1px solid #0000001A;
+
+    &-left {
+        h1 {
+            font-family: "Raleway";
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 29.52px;
+            color: #22202E;
+        }
+    }
+
+    &-right {
+        display: flex;
+        margin: 10px 0;
+        gap: 20px;
+    }
+
+    .nav_links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        gap: 35px;
+
+        a {
+            font-family: "Raleway";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.6px;
+            color: $decs_color;
+            transition: all 0.3;
+
+            &:hover {
+                color: $dark_primary;
+
+            }
+        }
+
+    }
+
+}
+
+.footer {
+    padding-top: 58px;
+    background: #2a254b;
+    color: white;
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 48px;
+    }
+
+    &_left {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    &-list-items {
+        display: flex;
+    }
+
+    &-lists {
+        list-style-type: none;
+    }
+
+    &_l{
+        display: none;
+    }
+
+    &-list {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.9px;
+        padding-bottom: 12px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+    &-form {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &-input {
+        color: white;
+        background: #4a4666;
+        padding: 17px 32px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        border: none;
+        width: 60%;
+    
+    }
+    &-input::placeholder {
+        color: white;
+        flex: 1;
+    }
+
+    &-btn {
+        padding: 16px 32px;
+        background: white;
+        color: #2a254b;
+        border: none;
+        width: 118px;
+    }
+    &-below {
+        border-top: 1px solid #4e4d93;
+        padding: 24px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-avio {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.9px;
+    }
+
+    &-links {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        cursor: pointer;
+    }
+}
+
+.footer .container {
+    padding: 0 24px;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+    .nav_content {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar_content {
+        display: flex;
+    }
+
+    .footer{
+        &-content{
+            display: inline
+        }
+        &_left{
+            width: 100%;
+            justify-content: space-between;
+        }
+        &_right{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .nav_links {
+        display: none !important;
+    }
+
+    .footer{
+        &-links{
+            display: none;
+        }
+        &-avio{
+            margin: 0 auto;
+        }
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .footer{
+        &-lists:nth-child(3){
+            display: none;
+        }
+        &_l{
+            display: inline;
+        }
+    }
+
+}
