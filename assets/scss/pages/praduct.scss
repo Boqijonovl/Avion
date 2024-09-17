@@ -1,0 +1,183 @@
+.chair {
+    .col-12 {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .chair-title {
+        font-family: "Raleway";
+        color: #2A254B;
+        padding-top: 60px;
+
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 44.28px;
+        text-align: left;
+
+    }
+
+    .chair-price {
+        color: #12131A;
+        font-family: "Raleway";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: left;
+
+    }
+
+    .chair-des {
+        margin-top: 54px;
+        color: #2A254B;
+        font-family: "Raleway";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.68px;
+        text-align: left;
+
+    }
+
+    .chair-description {
+        max-width: 498px;
+        color: #505977;
+        margin-top: 16px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        font-family: "Raleway";
+
+    }
+
+    .chair-links {
+        margin-bottom: 50px;
+
+        .chair-links-item {
+            font-family: "Raleway";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.6px;
+            text-align: left;
+
+            a {
+                color: #505977;
+
+
+            }
+
+        }
+
+    }
+
+    .chair-dem {
+        color: #2A254B;
+        margin-bottom: 28px;
+        font-family: "Raleway";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.68px;
+        text-align: left;
+
+    }
+
+    .chair-size {
+        display: flex;
+        gap: 57px;
+        margin-bottom: 22px;
+
+        .chair-size-height {
+
+            .chair-size-height_p1 {
+                font-family: "Raleway";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17.22px;
+                text-align: left;
+
+            }
+
+            .chair-size-height_p2 {
+                color: #505977;
+                font-family: "Raleway";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: left;
+
+            }
+        }
+    }
+
+    .chair-amount {
+        padding: 27px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .chair-amount-plus {
+            display: flex;
+            gap: 13px;
+
+            .chair-amount-plus_sum {
+                font-family: "Raleway";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.68px;
+                text-align: left;
+
+            }
+
+            .chair-amount-plus_count {
+                color: #CAC6DA;
+                font-family: "Raleway";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: left;
+
+            }
+
+            .chair-amount-plus_number {
+                color: #2A254B;
+                font-family: "Raleway";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: left;
+
+
+            }
+        }
+
+        .chair-btn {
+            background: #2A254B;
+            padding: 16px 32px;
+            font-family: "Raleway";
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+
+
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .chair {
+        .chair-amount {
+            .chair-btn {
+                width: 100%;
+                text-align: center;
+            }
+
+        }
+    }
+}

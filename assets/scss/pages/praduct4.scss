@@ -1,0 +1,58 @@
+.praduct4{
+    &_con{
+        padding: 5% 20%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+// **************************************  About ****************
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 88px 0;
+
+    &_con{
+        max-width: 704px;
+    }
+
+    
+}
+
+@media screen and (max-width: 930px) {
+
+    .about{
+        display: inline-block;
+        text-align: center;
+        padding: 60px 0;
+        &_con{
+            max-width: 100%;
+            h1{
+                margin-bottom: 20px;
+            }
+        } 
+        .buy_btn{
+            margin-left: 25% !important;
+            width: 50%;
+            display: flex !important;
+            justify-content: center !important;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .about{
+        padding: 30px 0;
+    
+        .buy_btn{
+            margin: 0 !important;
+            width: 100%;
+        }
+    }
+    
+}

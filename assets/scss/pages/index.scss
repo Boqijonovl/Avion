@@ -3,12 +3,12 @@
     justify-content: space-between;
 
     &_bg {
+        margin-bottom: 60px;
         background-color: $dark_primary;
     }
 
     &_left {
-        margin-top: 60px;
-        margin-left: 60px;
+        padding: 60px;
 
         h1 {
             max-width: 513px;
@@ -48,87 +48,476 @@
 
         .h_btn {
             display: none;
+            padding: 16px 32px;
+            gap: 10px;
+            margin: 20px 0;
+            background: #F9F9F926;
+            font-family: "Raleway";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: white;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.5;
+            }
         }
     }
 
     &_right {
         &-img {
             width: 100%;
+            height: 100%;
         }
     }
 }
+
+.brand {
+    &_cards {
+        &-title {
+            margin-top: 60px;
+            margin-bottom: 51px;
+
+            h3 {
+
+                font-family: "Raleway";
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 33.6px;
+                text-align: center;
+                color: $dark_primary;
+            }
+
+        }
+    }
+
+    &_card {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 86px;
+        padding: 0 24px;
+        gap: 20px;
+    }
+
+    &-c {
+        display: flex;
+        justify-content: space-around;
+        flex: 2;
+    }
+
+    &_c {
+        max-width: 270px;
+
+        img {
+            margin-bottom: 16px;
+        }
+
+        h4 {
+            margin-bottom: 8px;
+            font-family: "Raleway";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            color: $dark_primary;
+        }
+
+        p {
+            font-family: "Raleway";
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+            color: $decs_color;
+        }
+    }
+}
+
+.buy {
+    &_hero {
+        padding: 80px 10px 56px;
+    }
+
+    &_content {
+        &-title {
+            margin-bottom: 33px;
+
+            h2 {
+                font-family: "Raleway";
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 39.36px;
+                color: $dark_primary;
+            }
+        }
+    }
+
+    &_cards {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 35px;
+        gap: 20px;
+    }
+
+    &_cardc {
+        display: flex;
+        gap: 20px;
+    }
+
+    &_card {
+        img {
+            width: 100%;
+        }
+
+        h4 {
+            margin-top: 24px;
+            font-family: "Raleway";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            color: $dark_primary;
+        }
+
+        p {
+            margin-top: 8px;
+            font-family: "Raleway";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            color: $dark_primary;
+        }
+    }
+
+    &_btn {
+        width: 177px;
+        margin: 0 auto;
+
+        button {
+            width: 100%;
+            padding: 16px 32px 16px 32px;
+            background-color: #F9F9F9;
+            border: 0;
+            font-family: "Raleway";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: $dark_primary;
+
+            &:hover {
+                background-color: $dark_primary;
+                color: #F9F9F9;
+            }
+        }
+    }
+}
+
+.mebel {
+    padding: 64px 24px 48px;
+}
+
+.join {
+    padding: 60px 24px;
+    background-color: #F9F9F9;
+
+    &_content {
+        background-color: #fff;
+        text-align: center;
+        align-items: center;
+    }
+
+    &_title {
+        padding-top: 68px;
+        padding-bottom: 72px;
+
+        h1 {
+            font-family: "Raleway";
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 50.4px;
+            margin-bottom: 16px;
+            color: $dark_primary;
+        }
+
+        p {
+            font-family: "Raleway";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: center;
+            color: $dark_primary;
+        }
+    }
+
+    &-form {
+        padding-bottom: 54px;
+    }
+
+    &-input {
+        color: $dark_primary;
+        background: #F9F9F9;
+        padding: 13px 32px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        border: none;
+        width: 30%;
+
+    }
+
+    &-input::placeholder {
+        color: $dark_primary;
+    }
+
+    &-btn {
+        padding: 16px 32px;
+        background: $dark_primary;
+        color: white;
+        border: none;
+        width: 118px;
+
+        &:hover {
+            background-color: #F9F9F9;
+            color: $dark_primary;
+        }
+    }
+}
+
+.outlet {
+    padding: 0 20px;
+
+    &-content {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-left {
+            width: 50%;
+            padding-top: 72px;
+
+
+            padding-right: 84px;
+
+            &__title {
+                color: #2A254B;
+                max-width: 514px;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 33.6px;
+
+
+            }
+
+            &__description {
+                color: #505977;
+                max-width: 536px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: left;
+
+
+
+
+            }
+
+            .buy_btn {
+                margin-top: 196px;
+                margin-left: 0;
+            }
+        }
+
+        &-right {
+            width: 50%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .outlet {
+        padding: 0 !important;
+
+        &-content {
+            display: flex;
+            flex-wrap: wrap;
+
+
+            &-left {
+                width: 100%;
+
+                .buy_btn{
+                    margin-top: 50px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            &-right {
+                width: 100%;
+
+
+
+            }
+
+        }
+    }
+}
+
 
 @media screen and (max-width: 850px) {
 
     .hero {
-        margin-top: 30px;
+        margin-top: 0;
 
         &_left {
+            padding: 40px 24px 24px;
+
             h1 {
-                font-size: 25px;
+                font-size: 32px;
             }
 
             p {
-                margin-top: 50px;
-                margin-bottom: 40px;
+                margin-top: 80px;
+                margin-bottom: 32px;
+                font-size: 18px;
+            }
+
+            &-btn {
+                display: none;
+            }
+
+            .h_btn {
+                display: inline;
+            }
+        }
+
+        &_right {
+            &-img {
+                display: none;
+            }
+        }
+    }
+
+    .brand {
+        &_card {
+            margin-bottom: 45px;
+        }
+
+        &-c {
+            display: block;
+        }
+
+        &_c {
+            margin-bottom: 36px;
+        }
+    }
+
+    .buy {
+        &_hero {
+            padding: 48px 24px;
+
+            &-title {
+                h2 {
+                    margin-bottom: 19px;
+                }
+            }
+        }
+
+        &_cards {
+            display: block;
+            margin-bottom: 29px;
+        }
+
+        &_cardc {
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    .mebel {
+        padding: 48px 24px 38px;
+    }
+
+    .join {
+        padding: 48px 24px 38px;
+        background-color: #fff;
+
+        &_title {
+            padding: 0 0 64px;
+
+            h1 {
+                font-size: 20px;
+            }
+
+            p {
                 font-size: 14px;
             }
+        }
 
-            &-btn {
-                font-size: 10px;
-                padding: 12px 24px;
-            }
+        &-input {
+            width: 40%;
+            font-size: 14px;
         }
     }
-
-}
-
-@media screen and (max-width: 650px) {
-
-    .hero {
-        margin-top: 20px;
-
-        &_left {
-            h1 {
-                font-size: 15px;
-            }
-
-            p {
-                margin-top: 20px;
-                margin-bottom: 40px;
-                font-size: 8px;
-                margin-bottom: 30px;
-            }
-
-            &-btn {
-                font-size: 5px;
-                padding: 6px 12px;
-            }
-        }
-    }
-
 }
 
 @media screen and (max-width: 500px) {
     .hero {
-        display: inline;
 
-        &_left {
-            margin: 20px 30px;
-            padding: 0 10px;
-            background-color: $dark_primary ;
+        .h_btn {
+            width: 100%;
+        }
 
-            &-btn{
-                margin-top: 20px;
+    }
+
+    .brand {
+        &_cards-title {
+            margin: 0;
+
+            h3 {
+                text-align: left;
+                padding: 0 24px;
             }
         }
 
-        &_right{
-            &-img{
-                padding: 10px 30px;
+        &_card {
+            display: block;
+            padding-top: 36px;
+        }
+
+        &_c {}
+    }
+
+    .buy {
+        &_container {
+            &-title {
+                margin-bottom: 19px;
+
+                h2 {
+                    font-size: 20px;
+                }
             }
         }
 
+        &_card {
+            h4 {
+                font-size: 20px;
+            }
+        }
+
+        &_btn {
+            width: 100%;
+            margin: 0;
+
+            button {
+                width: 100%;
+            }
+        }
     }
 
 }
