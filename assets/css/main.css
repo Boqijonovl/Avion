@@ -1449,6 +1449,7 @@ output:focus {
 }
 .shopping_title p {
   margin-top: 12px;
+  padding-bottom: 12px;
   font-family: "Raleway";
   font-size: 14px;
   font-weight: 400;
@@ -1456,15 +1457,18 @@ output:focus {
   text-align: right;
   color: #726E8D;
 }
-.shopping_title .p_btn {
-  margin-top: 12px;
-}
 .shopping_title .p_btn button {
-  background-color: #2A254B !important;
-  color: #F9F9F9 !important;
+  padding: 16px 32px 16px 32px;
+  background-color: #2A254B;
+  border: 0;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #F9F9F9;
 }
 .shopping_title .p_btn button:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 530px) {
@@ -1500,6 +1504,9 @@ output:focus {
   }
   .shopping_praduct-sum {
     display: none;
+  }
+  .shopping_title .p_btn button {
+    width: 100%;
   }
 }
 
