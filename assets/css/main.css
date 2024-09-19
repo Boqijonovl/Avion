@@ -1354,5 +1354,153 @@ output:focus {
     width: 100%;
   }
 }
+.shopping {
+  background-color: #F9F9F9;
+}
+.shopping_content {
+  padding: 64px 20px 48px;
+}
+.shopping_h1 h1 {
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50.4px;
+  text-align: left;
+}
+.shopping_h6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 12px;
+}
+.shopping_h6 h6 {
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+.shopping_praduct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.shopping_praduct-img {
+  display: flex;
+  max-width: 315px;
+  gap: 21px;
+}
+.shopping_praduct-dec h4 {
+  margin-top: 12px;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.shopping_praduct-dec p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+.shopping_praduct-dec span {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.shopping_praduct-num {
+  display: flex;
+  gap: 33px;
+}
+.shopping_praduct-sum {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.shopping_title {
+  text-align: end;
+}
+.shopping_title-h1 {
+  margin-top: 28px;
+}
+.shopping_title-h1 h4 {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+  color: #4E4D93;
+}
+.shopping_title-h1 h4 span {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: right;
+  color: #2A254B;
+}
+.shopping_title p {
+  margin-top: 12px;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: right;
+  color: #726E8D;
+}
+.shopping_title .p_btn {
+  margin-top: 12px;
+}
+.shopping_title .p_btn button {
+  background-color: #2A254B !important;
+  color: #F9F9F9 !important;
+}
+.shopping_title .p_btn button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 530px) {
+  .shopping_content {
+    padding: 36px 20px 54px;
+  }
+  .shopping_h1 {
+    margin-bottom: 40px;
+  }
+  .shopping_h1 h1 {
+    font-size: 24px;
+  }
+  .shopping_h6 {
+    display: none;
+  }
+  .shopping .hr {
+    display: none;
+  }
+  .shopping_praduct {
+    margin-top: 0;
+    display: inline;
+    width: 100%;
+  }
+  .shopping_praduct-dec h4 {
+    font-size: 16px;
+  }
+  .shopping_praduct-dec p {
+    font-size: 14px;
+  }
+  .shopping_praduct-num {
+    justify-content: center;
+    margin: 5px 0;
+  }
+  .shopping_praduct-sum {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

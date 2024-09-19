@@ -1,0 +1,189 @@
+.shopping {
+    background-color: #F9F9F9;
+
+    &_content {
+        padding: 64px 20px 48px;
+    }
+
+    &_h1 {
+        h1 {
+            font-family: "Raleway";
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 50.4px;
+            text-align: left;
+        }
+    }
+
+    &_h6 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+        margin-bottom: 12px;
+
+        h6 {
+            font-family: "Raleway";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.6px;
+        }
+    }
+
+    &_praduct {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+
+        &-img {
+            display: flex;
+            max-width: 315px;
+            gap: 21px;
+        }
+
+        &-dec {
+            h4 {
+                margin-top: 12px;
+                font-family: "Raleway";
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: left;
+            }
+
+            p {
+                margin-top: 8px;
+                margin-bottom: 8px;
+                font-family: "Raleway";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                text-align: left;
+            }
+
+            span {
+                font-family: "Raleway";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+            }
+        }
+
+        &-num {
+            display: flex;
+            gap: 33px;
+        }
+
+        &-sum {
+            font-family: "Raleway";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            text-align: left;
+        }
+    }
+
+    &_title {
+        text-align: end;
+
+        &-h1 {
+            margin-top: 28px;
+
+            h4 {
+                font-family: "Raleway";
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: right;
+                color: #4E4D93;
+
+                span {
+                    font-family: "Raleway";
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 33.6px;
+                    text-align: right;
+                    color: $dark_primary;
+                }
+            }
+
+        }
+
+        p {
+            margin-top: 12px;
+            font-family: "Raleway";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: right;
+            color: $decs_color;
+        }
+
+        .p_btn {
+            margin-top: 12px;
+            button {
+                background-color: $dark_primary !important;
+                color: #F9F9F9 !important;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .shopping {
+        &_content {
+            padding: 36px 20px 54px;
+        }
+
+        &_h1 {
+            margin-bottom: 40px;
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+
+        &_h6 {
+            display: none;
+        }
+
+        .hr {
+            display: none;
+        }
+
+        &_praduct {
+            margin-top: 0;
+            display: inline;
+            width: 100%;
+
+            &-dec {
+                h4 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            &-num {
+                justify-content: center;
+                margin: 5px 0;
+            }
+
+            &-sum {
+                display: none;
+            }
+        }
+
+        &_title {
+
+           
+        }
+    }
+}
